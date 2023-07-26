@@ -1,0 +1,473 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: auto;
+  src:
+    url('~@/assets/fonts/JetBrainsMono-VariableFont_wght.ttf') format('font-truetype');
+}
+
+:root {
+  --blu: rgb(29 161 242);
+  --blu-hover: rgb(17, 105, 188);
+  --success: rgb(132, 200, 135);
+  --caution: #F0DB3A;
+  --warning: #F04022;
+  --darker-gray: rgb(17, 23, 32);
+  --dark-gray: rgb(24, 31, 44);
+  --midSlate: #475569;
+  --slate: rgb(39, 51, 63);
+  --lightSlate: #64748b;
+  --mid-gray: rgb(138, 138, 138);
+  --light-gray: rgb(166, 166, 166);
+  --lighter-gray: rgb(199, 199, 199);
+}
+
+body {
+  background-color: #edeeef;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.dark body {
+  background-color: var(--darker-gray);
+}
+
+a {
+  cursor: pointer;
+  color: var(--blu);
+}
+
+a:hover {
+  color: var(--blu-hover);
+}
+
+a.grayLink {
+  color: var(--mid-gray);
+}
+
+a.grayLink:hover {
+  color: var(--blu);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  color: var(--midSlate);
+  line-height: 2rem;
+  letter-spacing: -0.025em;
+}
+
+.dark h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--light-gray)
+}
+
+h1 {
+  font-size: 1.75rem;
+  line-height: 2.5rem;
+  letter-spacing: -0.03em;
+  color: var(--lightSlate);
+}
+
+h1:hover {
+  color: var(--blu);
+}
+
+h2 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  letter-spacing: -0.025em;
+  color: var(--midSlate);
+}
+
+h3 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  letter-spacing: -0.025em;
+}
+
+h4 {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  letter-spacing: -0.025em;
+}
+
+h5 {
+  font-size: 1rem;
+  line-height: 1.25rem;
+  letter-spacing: -0.025em;
+  padding: 0.5rem;
+  color: rgb(163 163 163);
+}
+
+.dark h5 {
+  color: white;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  white-space: nowrap;
+  text-align: left;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+thead {
+  border-bottom-width: 1px;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+th {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+blockquote {
+  margin-bottom: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 48rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.75rem;
+  color: var(--midSlate);
+}
+
+p {
+  color: var(--midSlate);
+}
+
+.dark .container {
+  background-color: var(--dark-gray);
+}
+
+.container {
+  min-height: 100%;
+  background-color: #fff;
+  padding: 1.25rem;
+  flex: 1 1 0%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  max-width: 56rem;
+  margin-top: 1.25rem;
+}
+
+.wrapper {
+  display: flex;
+  min-height: 100%;
+  align-items: center;
+  justify-content: center;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+#footer {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 56rem;
+  margin-top: 1.25rem;
+}
+
+.footerContain {
+  background-color: rgb(255 255 255);
+  padding-top: 2.5rem;
+}
+
+.dark .footerContain {
+  background-color: var(--dark-gray);
+}
+
+.footerItem {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: rgb(71 85 105);
+}
+
+.footerItem:hover {
+  color: #000;
+}
+
+.dark .footerItem:hover {
+  color: #fff;
+}
+
+.footer-links {
+  padding-bottom: 2.5rem;
+  padding-left: 2.5rem;
+}
+
+.footerWrapper h3 {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  color: var(--light-gray);
+}
+
+.dark .footerWrapper h3 {
+  color: var(--slate);
+}
+
+.footerNav {
+  padding: 1.25rem;
+  border-top-width: 1px;
+  border-color: rgb(229 231 235);
+}
+
+.dark .footerNav {
+  border-color: rgb(17 24 39);
+}
+
+.formInput {
+  display: block;
+  position: relative;
+  margin-bottom: 0.5rem;
+  width: 100%;
+  border: 1px solid #dadbdc;
+  border-radius: 0.33rem;
+  padding: .5rem .75rem;
+  color: rgb(41, 41, 41);
+  background-color: rgb(255 255 255);
+}
+
+.dark .formInput {
+  color: var(--light-gray);
+  background-color: var(--slate);
+  border-color: var(--slate);
+}
+
+.vue-tags-input {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.responseCode {
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: var(--blu-hover);
+}
+
+.bigButton {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 0.375rem;
+  border-width: 1px;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.smallButton {
+  display: inline-block;
+  border-radius: 0.5rem;
+  border-radius: 0.5rem;
+  padding: 6px 1rem;
+  font-size: .9rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+}
+
+.smallButton:hover {
+  color: rgb(255, 255, 255);
+  background-color: var(--blu-hover);
+}
+
+.primary {
+  background-color: var(--blu);
+  align-items: center;
+  color: rgb(255 255 255);
+  display: inline-block;
+  border-radius: 0.5rem;
+  padding: 5px 1rem;
+  font-size: .9rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+  border: 1px solid var(--blu);
+}
+
+.primary:hover {
+  background-color: var(--blu-hover);
+  color: rgb(255 255 255);
+  border-radius: 0.5rem;
+  border: transparent;
+  border: 1px solid var(--blu-hover);
+}
+
+.primaryText {
+  color: var(--midSlate) !important;
+}
+
+.secondary {
+  display: inline-block;
+  border-radius: 0.5rem;
+  padding: 5px 1rem;
+  font-size: .9rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  color: rgb(156 163 175);
+  border: 1px solid rgb(156 163 175);
+}
+
+.secondary:hover {
+  background-color: var(--blu-hover);
+  color: #fff;
+  border: 1px solid var(--blu-hover);
+}
+
+.secondaryText {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: var(--mid-gray);
+}
+
+.theContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  color: var(--darker-gray);
+}
+
+.theHeading {
+  margin-top: 2px;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: rgb(107 114 128);
+}
+
+#headerMenu {
+  position: relative;
+  border-bottom: 1px solid var(--lighter-gray);
+  padding-bottom: 1.25rem;
+}
+
+.dark #headerMenu {
+  border-bottom: 2px solid var(--darker-gray);
+}
+
+.toggleSwitch {
+  display: inline-block;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 9999px;
+  background-color: rgb(255 255 255);
+}
+
+.dark .toggleSwitch {
+  background-color: var(--slate);
+}
+
+.stickySearch {
+  position: sticky;
+  display: flex;
+  height: 4rem;
+  top: 0;
+  z-index: 10;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 56rem;
+  background-color: rgb(255 255 255);
+}
+
+.dark .stickySearch {
+  background-color: var(--dark-gray);
+}
+
+#searchInput {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  padding: 0.5rem .75rem 0.5rem 2rem;
+  color: rgb(17 24 39);
+  border-color: transparent;
+  background-color: rgb(255 255 255);
+}
+
+.dark #searchInput {
+  color: var(--light-gray);
+  background-color: var(--dark-gray);
+}
+
+.searchSubmit {
+  border-radius: 9999px;
+  background-color: rgb(243 244 246);
+  padding: 0.25rem;
+  color: rgb(156 163 175);
+}
+
+.searchSubmit:hover {
+  background-color: rgb(243 244 246);
+  color: rgb(107 114 128);
+}
+
+.dark .searchSubmit {
+  color: var(--blu) !important;
+  background-color: var(--slate);
+}
+
+.dark .searchSubmit:hover {
+  color: var(--darker-gray) !important;
+  background-color: var(--blu);
+}
+
+
+.more {
+  margin-top: .25rem;
+  text-align: center;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: var(--light-gray);
+}
+
+
+
+.quote {
+  margin-top: 0.75rem;
+  text-align: center;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 500;
+  color: var(--midSlate);
+}
+
+.avatar {
+  margin-left: auto;
+  margin-right: auto;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 9999px;
+}
+
+.smallerAvatar {
+  height: 1.9rem;
+  width: 1.9rem;
+  border-radius: 3rem;
+}
