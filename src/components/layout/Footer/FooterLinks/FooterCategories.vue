@@ -16,6 +16,6 @@ const categories = [
   { name: "Home Page", href: "/" },
   { name: "About This", href: "/page/about" },
   { name: "Help Page", href: "/page/help" },
-  { name: "Contact Me", href: "https://jamesturner.dev/page/contact" },
+  { name: "Basic Page", href: "/page/basic" },
 ];
 </script>

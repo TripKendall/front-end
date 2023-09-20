@@ -6,7 +6,7 @@
       </a>
     </h1>
     <a class="grayLink" :href="siteInfo.repository">
-      <span class="text-xs">{{ siteInfo.aText }}</span>
+      <span class="text-xs">{{ siteInfo.linkText }}</span>
     </a>
   </div>
 </template>
@@ -18,8 +18,8 @@ const siteInfo = ref(
     subTitle: "",
     title: 'Front-End.us',
     url: '/',
-    repository: 'https://github.com/jamesturner-dev/front-end.us',
-    aText: '(The Github Repository is Here)'
+    repository: 'https://github.com/TripKendall/front-end',
+    linkText: '(The Github Repository is Here)'
   }
 );
 </script>

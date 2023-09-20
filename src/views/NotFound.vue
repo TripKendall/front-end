@@ -11,6 +11,10 @@
 </template>
 
 <script setup>
+
+// This is one of the reasons I like to add the views directory and
+// not just have everything in components.  I should make a SPA version to tho.
+
 import BigButtons from "../components/shared/BigButtons.vue";
 import ContentHeader from "../components/shared/ContentHeader.vue";
 

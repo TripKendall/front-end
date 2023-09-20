@@ -2,7 +2,7 @@ export const help = [
   {
     id: 1,
     question: "Can I get this code?",
-    answer: "Oh yeah, it is all on <a href='https://github.com/jamesturner-dev/front-end.us' class='text-sky-400 hover:text-sky-400'>Github</a>. Feel free to fork it and make it your own or make your improvements and submit a pull request."
+    answer: "Oh yeah, it is all on <a href='https://github.com/TripKendall/front-end' class='text-sky-400 hover:text-sky-400'>Github</a>. Feel free to fork it and make it your own or make your improvements and submit a pull request."
   },
   {
     id: 2,
@@ -22,17 +22,17 @@ export const help = [
   {
     id: 5,
     question: "How can I get in touch?",
-    answer: 'The best way is still email. I realize it is a bit antiquated but if you want to make inital contact, it is your best bet. - <a href="mailto:james@jamesturner.dev" class="text-sky-400 hover:text-sky-400">james@jamesturner.dev</a>'
+    answer: 'The best way is still email. I realize it is a bit antiquated but if you want to make inital contact, it is your best bet. - <a href="mailto:tripkendall@gmail.com" class="text-sky-400 hover:text-sky-400">tripkendall@gmail.com</a>'
   },
   {
     id: 6,
     question: "Why do you use Vue?",
-    answer: "Vue.js is very flexible and can be used in a variety of ways. It boasts excellent performance thanks to its lightweight nature and efficient rendering mechanism. The resulting applications are fast and responsive. <a href='https://jamesturner.dev/blog/why-vue' class='text-sky-400 hover:text-sky-400'>Read more</a>"
+    answer: "Vue.js is very flexible and can be used in a variety of ways. It boasts excellent performance thanks to its lightweight nature and efficient rendering mechanism. The resulting applications are fast and responsive."
   },
   {
     id: 7,
     question: "Are you on social media?",
-    answer: "Just Twitter - <a href='https://twitter.com/JamesTurnerDev' class='text-sky-400 hover:text-sky-400'>@JamesTurnerDev</a>"
+    answer: "Just Twitter - <a href='https://twitter.com/tripkendall' class='text-sky-400 hover:text-sky-400'>@TripKendall</a>"
   },
   {
     id: 8,

@@ -13,9 +13,9 @@
 
 <script setup>
 const cat = [
-  { name: "Technology", href: "https://headlin3s.com/cat/Tech" },
-  { name: "The News", href: "https://headlin3s.com/cat/News" },
-  { name: "Politics", href: "https://headlin3s.com/cat/politics" },
-  { name: "Business", href: "https://headlin3s.com/cat/business" },
+  { name: "Your Privacy", href: "https://wlog.app/posts/PersonalPrivacy.html" },
+  { name: "What are Passkeys?", href: "https://wlog.app/posts/passkeys.html" },
+  { name: "Secure Network", href: "https://wlog.app/posts/secure-your-network-with-linux-and-squid.html" },
+  { name: "Microsoft Teams", href: "https://wlog.app/posts/why-people-hate-microsoft-teams.html" },
 ];
 </script> 

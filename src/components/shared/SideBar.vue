@@ -25,35 +25,35 @@ const activityItems = [
     },
     date: '2023-04-18',
     projectName: 'Independent Development is the Future of Software',
-    url: 'https://jamesturner.dev/blog/walled-garden',
+    url: 'https://wlog.app/posts/WalledGarden.html',
   },
   {
     user: {
-      name: 'Fast Websites',
+      name: 'People Hate Teams',
       imageUrl: 'https://images.unsplash.com/photo-1517026575980-3e1e2dedeab4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8ZmFzdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60',
     },
-    projectName: 'Why do you focus so much on website speed? ',
+    projectName: 'Why people hate Microsoft Teams. ',
     date: '2023-01-23',
-    url: 'https://jamesturner.dev/blog/fast-websites',
+    url: 'https://wlog.app/posts/why-people-hate-microsoft-teams.html',
   },
   {
     user: {
-      name: 'Why Vue',
+      name: 'What AI thinks.',
       imageUrl:
         'https://images.unsplash.com/photo-1593720216276-0caa6452e004?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fGphdmFzY3JpcHR8ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60',
     },
-    projectName: 'Why VueJs is my preferred framework.',
+    projectName: 'What AI thinks of other AI.',
     date: '2023-01-23',
-    url: 'https://jamesturner.dev/blog/why-vue',
+    url: 'https://wlog.app/posts/what-ai-thinks-of-other-ai.html',
   },
   {
     user: {
-      name: 'Python Podcasts',
+      name: 'Milk Toast Fence Sitter?',
       imageUrl: 'https://images.unsplash.com/photo-1649180556628-9ba704115795?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTY2fHxweXRob258ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60',
     },
-    projectName: 'Python Podcasts that I have enjoyed.',
+    projectName: 'Tim Pool has been described as a milk toast fence sitter...',
     date: '2023-02-22',
-    url: 'https://jamesturner.dev/blog/python-podcasts',
+    url: 'https://wlog.app/posts/milk-toast-fence-sitter.html',
   },
   {
     user: {
@@ -62,7 +62,7 @@ const activityItems = [
     },
     date: '2023-03-24',
     projectName: 'There are no small components.  Everything is important',
-    url: 'https://jamesturner.dev/blog/web-form',
+    url: 'https://wlog.app/posts/WebForms.html',
   },
 ]
 </script>
